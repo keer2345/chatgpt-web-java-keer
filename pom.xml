@@ -18,11 +18,15 @@
         </developer>
     </developers>
 
+    <modules>
+        <module>chatgpt-bootstrap</module>
+    </modules>
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.keer</groupId>
     <artifactId>chatgpt-web-java-keer</artifactId>
     <version>${revision}</version>
-    <name>ChatGPT</name>
+    <name>ChatGptKeer</name>
     <description>ChatGPT</description>
     <packaging>pom</packaging>
 

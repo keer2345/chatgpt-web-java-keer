@@ -1,0 +1,14 @@
+version: '3'
+services:
+  chatgpt-web-java-keer:
+    container_name: chatgpt-web-java-keer
+    image: chatgpt-web-java-keer
+    restart: always
+    environment:
+      - MODE=standalone
+      - TZ=Asia/Shanghai
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
